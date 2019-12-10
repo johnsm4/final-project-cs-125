@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Progress"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="5pt"
+        android:paddingBottom="5pt"
+        android:text="@string/yourProgress"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/black"
+        android:showDividers="middle"
+        android:layout_below="@+id/textView" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/returnHome"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/journal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/journal"
+        android:layout_above="@+id/home"
+        />
+
+</RelativeLayout>

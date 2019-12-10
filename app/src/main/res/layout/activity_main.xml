@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rateYourDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/rate_day"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/oneButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            app:backgroundTint="@android:color/holo_blue_dark"
+            />
+
+        <Button
+            android:id="@+id/twoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            app:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/threeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            app:backgroundTint="@android:color/holo_green_dark" />
+
+        <Button
+            android:id="@+id/fourButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            app:backgroundTint="@android:color/holo_orange_dark" />
+
+        <Button
+            android:id="@+id/fiveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/five"
+            app:backgroundTint="@android:color/holo_red_light" />
+
+        <Button
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/progress" />
+
+        <Button
+            android:id="@+id/journal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/journal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        app:fontFamily="cursive"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="64dp"/>
+
+</RelativeLayout>

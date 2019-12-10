@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="rate_day">How would you rate your day from 1-5?</string>
+    <string name="why_one">Why did you rate your day a 1?</string>
+    <string name="why_two">Why did you rate your day a 2?</string>
+    <string name="why_three">Why did you rate your day a 3?</string>
+    <string name="why_four">Why did you rate your day a 4?</string>
+    <string name="why_five">Why did you rate your day a 5?</string>
+    <string name="sad">I\'m sad</string>
+    <string name="lonely">I\'m lonely</string>
+    <string name="something_bad">Something bad happened</string>
+    <string name="bad_weather">The weather sucks</string>
+    <string name="other">Another reason</string>
+    <string name="average">It\'s been an average day</string>
+    <string name="ups_and_downs">There have been ups and downs</string>
+    <string name="conflicted">I feel conflicted</string>
+    <string name="boring">It\'s been boring</string>
+    <string name="happy">I\'m just happy</string>
+    <string name="love">I\'m in love</string>
+    <string name="something_great">Something great happened</string>
+    <string name="good_weather">Awesome weather</string>
+    <string name="progress">See my progress</string>
+    <string name="journal">Read my journal</string>
+    <string name="hint">Please explain your rating.</string>
+    <string name="submit">Submit</string>
+    <string name="journalEntry">Your journal:</string>
+    <string name="returnHome">Return to home screen</string>
+    <string name="yourProgress">Your progress:</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="viewProgress">View your progress</string>
+    <string name="name">YoUr Season</string>
+</resources>
